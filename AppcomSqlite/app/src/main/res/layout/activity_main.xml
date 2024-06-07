@@ -1,0 +1,75 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="18sp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextNome"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/informe_seu_nome"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:autofillHints=""
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextIdade"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/informe_sua_idade"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:autofillHints=""
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/editTextAltura"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/informe_sua_altura"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:autofillHints=""
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextPeso"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/informe_o_seu_peso"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:autofillHints=""
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/buttonCalcularIMC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calcular_imc"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewResultadoIMC"
+        android:textColor="#FF0000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text=""
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnSalvarDados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gravar_dados"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</LinearLayout>

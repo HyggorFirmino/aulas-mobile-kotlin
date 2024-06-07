@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">sqllitePessoa</string>
+    <string name="n_o_estamos_usando_a_tela_ainda_somente_o_log">Não estamos usando a tela ainda somente o log</string>
+    <string name="informe_seu_nome">Informe seu nome</string>
+    <string name="gravar_dados">Gravar Dados</string>
+    <string name="calcular_imc">Calcular IMC</string>
+    <string name="informe_o_seu_peso">Informe o seu Peso</string>
+    <string name="informe_sua_altura">Informe sua altura</string>
+    <string name="informe_sua_idade">Informe sua idade</string>
+</resources>
